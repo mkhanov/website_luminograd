@@ -1,0 +1,475 @@
+@font-face {
+    font-family: 'Peace Sans MS';
+    src: url('Fonts/Peace_Sans.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.first_monitor {
+    height: 800px;
+    width: 1440px;
+}
+
+.second_monitor {
+    height: 800px;
+    width: 1440px;
+}
+
+.third_monitor {
+    height: 800px;
+    width: 1440px;
+}
+
+.four_monitor {
+    height: 800px;
+    width: 1440px;
+}
+
+.five_monitor {
+    height: 800px;
+    width: 1440px;
+}
+
+body {
+    background-color: #0C1220;
+    font-family: 'Peace Sans MS', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    max-width: 1300px;
+    width: 100%;
+    margin: 35px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 63px;
+}
+
+nav {
+    display: flex;
+    gap: 63px;
+    font-size: 24px;
+}
+
+.main-text {
+    color: #20D7E0;
+}
+
+a:hover {
+    color: #20D7E0
+}
+
+.welcome_luminograd {
+    max-width: 810px;
+    margin: 333px auto;
+    text-align: center;
+}
+
+.wl-1 {
+    font-size: 48px;
+    color: white;
+}
+
+.wl-2 {
+    font-size: 96px;
+    color: #20D7E0;
+}
+
+.line-1 {
+    margin-top: 25px;
+}
+
+.zazyvalo {
+    font-size: 24px;
+    color: white;
+    margin-top: 25px;
+}
+
+.tt-1 {
+    color: #20D7E0;
+    font-size: 48px;
+    margin: 65px 79px;
+    line-height: 60px;
+}
+
+.abzacy {
+    color: white;
+    font-size: 24px;
+    margin-left: 79px;
+    margin-top: -55px;
+    line-height: 33px;
+}
+.red_abzac {
+    text-align: right;
+    color: #F9425F;
+    margin-right: 79px;
+    margin-top: 90px;
+    line-height: 30px;
+}
+
+.tzl {
+    font-size: 48px;
+}
+
+.tkp {
+    font-size: 24px;
+}
+
+.Knopka {
+    display: inline-block;
+    padding: 16px 28px;
+    border: 2px solid white;
+    border-radius: 18px;
+    color: white;
+    background-color: rgba(8, 56, 140, 0.2);
+    font-size: 48px;
+    margin-left: 79px;
+}
+
+.lrs {
+    font-size: 24px;
+    color: white;
+    margin-top: 23px;
+    margin-left: 79px;
+    line-height: 33px;
+}
+
+.cyber-tower {
+    margin-left: 600px;
+    margin-top: -650px;
+}
+
+.hor_line {
+    margin-top: -98px;
+    margin-left: 10px;
+}
+
+.ai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    z-index: 1;
+}
+
+.CPR {
+    margin: -660px auto;
+    z-index: 2;
+    color: #20D7E0;
+    font-size: 48px;
+    justify-self: center;
+}
+
+.cpr-t {
+    font-size: 24px;
+    color: white;
+    margin: 770px;
+    width: 1150px;
+    margin-left: 150px;
+}
+
+.editor {
+    font-size: 24px;
+    color: #F9425F;
+    text-align: center;
+    margin: -550px auto;
+}
+
+.five_monitor {
+    background-image: url('Images/zhikom.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+.zhk {
+    color: #20D7E0;
+    font-size: 48px;
+    margin-top: 0px;
+}
+
+.opisanie {
+    color: white;
+    font-size: 24px;
+}
+
+.pered {
+    width: 1300px;
+    height: auto;
+    margin-left: 79px;
+    margin-top: -525px;
+}
+
+.sprava {
+    height: auto;
+    color: white;
+    text-align: right;
+    margin-left: -800px;
+    font-size: 24px;
+}
+
+.knopka_2 {
+    display: inline-block;
+    padding: 17px 8px;
+    border: 2px solid white;
+    border-radius: 18px;
+    color: white;
+    background-color: rgba(32, 215, 224, 0.3);
+    font-size: 48px;
+    margin-bottom: -600px;
+    justify-content: center;
+    margin-left: -800px;
+}
+
+.six_monitor {
+    height: 800px;
+    width: 1440px;
+    background-image: url('Images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.DI {
+    color: #20D7E0;
+    font-size: 48px;
+    margin-left: 79px;
+    margin-top: -600px;
+    height: auto;
+    width: auto;
+}
+
+.DID {
+    color: white;
+    font-size: 24px;
+    margin-left: -540px;
+    margin-top: -320px;
+    line-height: 30px;
+}
+
+.vidget {
+    margin-bottom: -300px;
+    margin-left: -700px
+}
+
+.seven_monitor {
+    height: 800px;
+    width: 1440px;
+}
+
+.seven_monitor {
+    position: relative;
+    min-height: 100vh;
+    isolation: isolate;
+    color: white;
+}
+
+.seven_monitor::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: url('Images/ttt.png') center / cover no-repeat;
+}
+
+.content {
+    width: 991px;
+    height: 563px;
+    margin: 224px auto;
+    padding: 60px 0;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+.contact-page {
+    --contact-bg: url("Images/ttt.png"); /* <-- сюда путь к вашему фону */
+    --contact-accent: #5fd3dd;
+    --contact-red: #e85262;
+    --contact-green: #4fa82e;
+    --contact-footer: #241a3a;
+    --contact-page-bg: #0d1420;
+
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 0 0;
+    background: var(--contact-page-bg);
+    color: #fff;
+    font-family: "Arial Black", "Trebuchet MS", sans-serif;
+    box-sizing: border-box;
+}
+
+.contact-page *,
+.contact-page *::before,
+.contact-page *::after {
+    box-sizing: border-box;
+}
+
+/* Основная часть с фоном */
+.contact-page__main {
+    position: relative;
+    padding: clamp(40px, 6vw, 80px) 20px 60px;
+    background-image: var(--contact-bg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.contact-page__title {
+    margin: 0 0 40px;
+    font-size: clamp(40px, 7vw, 96px);
+    line-height: 1;
+    color: #20D7E0;
+    text-transform: none;
+    font-weight: 900;
+}
+
+/* Окно формы */
+.contact-form {
+    position: relative;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: clamp(24px, 3vw, 40px) clamp(20px, 4vw, 60px) clamp(30px, 4vw, 50px);
+    background: rgba(20, 60, 75, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.85);
+    border-radius: 24px;
+    backdrop-filter: blur(3px);
+}
+
+.contact-form__heading {
+    margin: 0 0 clamp(24px, 3vw, 40px);
+    font-size: clamp(16px, 1.6vw, 22px);
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.contact-form__grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: clamp(20px, 3vw, 40px);
+    align-items: stretch;
+}
+
+.contact-form__column {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(14px, 2vw, 24px);
+}
+
+.contact-form__field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-form__label {
+    font-size: clamp(15px, 1.5vw, 20px);
+    font-weight: 700;
+    text-align: left;
+}
+
+.contact-form__input {
+    width: 100%;
+    height: 56px;
+    padding: 0 18px;
+    border: none;
+    border-radius: 14px;
+    background: rgba(120, 190, 220, 0.6);
+    color: #fff;
+    font: inherit;
+    outline: none;
+}
+
+.contact-form__input:focus {
+    background: rgba(150, 210, 235, 0.8);
+}
+
+/* Вертикальная надпись по центру */
+.contact-form__brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form__brand span {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: clamp(36px, 4.5vw, 64px);
+    font-weight: 900;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.contact-form__submit {
+    display: block;
+    margin: clamp(24px, 3vw, 40px) auto 0;
+    padding: 14px 40px;
+    border: 2px solid rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    background: rgba(120, 90, 110, 0.6);
+    color: #fff;
+    font: inherit;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Декоративные квадраты по бокам */
+.contact-page__deco {
+    position: absolute;
+    top: 50%;
+    width: clamp(60px, 7vw, 94px);
+    height: clamp(60px, 7vw, 94px);
+    border-radius: 14px;
+    transform: translateY(-50%);
+}
+
+.contact-page__deco--left {
+    left: clamp(10px, 4vw, 60px);
+    background: var(--contact-red);
+    margin-top: 350px
+}
+
+.contact-page__deco--right {
+    right: clamp(10px, 4vw, 60px);
+    background: var(--contact-green);
+    margin-top: 350px;
+}
+
+/* Футер */
+.contact-page__footer {
+    background: var(--contact-footer);
+    padding: 40px 20px;
+}
+
+.contact-page__footer-inner {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contact-page__contact {
+    margin: 0;
+    font-size: clamp(16px, 1.6vw, 22px);
+    font-weight: 700;
+}
