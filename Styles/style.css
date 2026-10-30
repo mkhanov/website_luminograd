@@ -297,7 +297,7 @@ a:hover {
 }
 
 .contact-page {
-    --contact-bg: url("Images/ttt.png"); /* <-- сюда путь к вашему фону */
+    --contact-bg: url("Images/ttt.png"); 
     --contact-accent: #5fd3dd;
     --contact-red: #e85262;
     --contact-green: #4fa82e;
@@ -320,7 +320,6 @@ a:hover {
     box-sizing: border-box;
 }
 
-/* Основная часть с фоном */
 .contact-page__main {
     position: relative;
     padding: clamp(40px, 6vw, 80px) 20px 60px;
@@ -340,7 +339,6 @@ a:hover {
     font-weight: 900;
 }
 
-/* Окно формы */
 .contact-form {
     position: relative;
     max-width: 1160px;
@@ -401,7 +399,6 @@ a:hover {
     background: rgba(150, 210, 235, 0.8);
 }
 
-/* Вертикальная надпись по центру */
 .contact-form__brand {
     display: flex;
     align-items: center;
@@ -431,7 +428,6 @@ a:hover {
     cursor: pointer;
 }
 
-/* Декоративные квадраты по бокам */
 .contact-page__deco {
     position: absolute;
     top: 50%;
@@ -453,7 +449,6 @@ a:hover {
     margin-top: 350px;
 }
 
-/* Футер */
 .contact-page__footer {
     background: var(--contact-footer);
     padding: 40px 20px;
